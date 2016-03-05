@@ -59,6 +59,15 @@ form label {
   font-weight: bold;
   color: maroon;
 }
+
 table#movies th.hilite {
    background-color: yellow;
 }
+=======
+
+table#movies th.hilite {
+   background-color: yellow;
+ 
+}
+
+>>>>>>> 8894f050d15cac5c317d808891b226ef81d954e0

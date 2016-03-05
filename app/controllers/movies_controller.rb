@@ -18,7 +18,11 @@ class MoviesController < ApplicationController
       @movies = Movie.all
     end
   end
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 8894f050d15cac5c317d808891b226ef81d954e0
   def new
     # default: render 'new' template
   end
