@@ -11,11 +11,11 @@ class MoviesController < ApplicationController
   end
 
   def index
-    if params[:sort_by] == nil
-      @movies = Movie.all
+    if params[:alphabetical] != nil
+      @movies = Movie.order(params[:alphabetical])
+      @alpha_order = params[:alphabetical]
     else
-      @movies = Movie.order(params[:sort_by])
-      @sort_column = params[:sort_by]
+      @movies = Movie.all
     end
   end
 
